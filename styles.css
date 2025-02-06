@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oxygen", serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #050305;
+    color: #fff;
+}
+.container {
+    max-width: 420px;
+    width: 90%;
+    background: rgb(19, 18, 18);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #8f37b1;
+}
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #624343;
+}
+.content {
+    margin: 25px 15px 30px;
+}
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.inputs input {
+    height: 50px;
+    width: 50px;
+    margin: 4px;
+    border-radius: 5px;
+    background: none;
+    border: 2px solid #624343;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+.inputs input:first-child {
+    margin-left: 0px;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background: #36123f;
+    color: #fff;
+    border: 3px solid #624343;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
