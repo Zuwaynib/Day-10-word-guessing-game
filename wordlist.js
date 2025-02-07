@@ -1,3 +1,4 @@
+// Create an array of objects containing words and hints
 const wordList = [
     {
         word: "python",
@@ -17,7 +18,7 @@ const wordList = [
     },
     {
         word: "diamond",
-        hint: "An isotope of carbon"
+        hint: "Precious Gemstone"
     },
     {
         word: "snake",
@@ -46,5 +47,17 @@ const wordList = [
     {
         word: "lush",
         hint: "Rich, abundant, luxurious"
+    },
+    {   
+        word: "apple", 
+        hint: "A popular fruit" 
+    },
+    {   
+        word: "javascript", 
+        hint: "A programming language" 
+    }, 
+    { 
+        word: "ocean", 
+        hint: "A large body of water" 
     }
 ]

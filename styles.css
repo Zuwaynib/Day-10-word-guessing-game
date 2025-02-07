@@ -68,3 +68,11 @@ button {
     margin-top: 20px;
     cursor: pointer;
 }
+.win {
+    background: rgb(8, 189, 8);
+    border: none;
+}
+.lose {
+    background: rgb(146, 10, 10);
+    border: none;
+}
