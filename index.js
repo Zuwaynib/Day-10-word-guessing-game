@@ -70,7 +70,7 @@ function checkGameStatus() {
 
     if (guessedWord === chosenWord) {
         win.style.display = "block"
-        win.textContent = "Congrats! You Won";
+        win.textContent = "Congrats! You guessed the word correctly";
         return;
 
     } else if (maxGuesses <= 0) {

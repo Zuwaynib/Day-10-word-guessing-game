@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #050305;
+    background-color: #36123f;
     color: #fff;
 }
 .container {
@@ -63,7 +63,7 @@ button {
     font-size: 20px;
     background: #36123f;
     color: #fff;
-    border: 3px solid #624343;
+    border: 3px solid #8f37b1;
     border-radius: 10px;
     margin-top: 20px;
     cursor: pointer;
